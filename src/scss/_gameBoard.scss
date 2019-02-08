@@ -1,0 +1,26 @@
+.game-board {
+  width: 600px;
+  border-radius: 10px;
+  background-color: $grey;
+  border: 1px solid rgba(0,0,0,0.35);
+  padding: 40px;
+  margin: auto;
+  perspective: 800px;
+  transform: translate3d(0,10%,200px) scale(0.8) rotateY(0) rotateX(0);
+  transition: transform 0.2s linear;
+  transform-style: preserve-3d;
+
+  .top-bar {
+    transform: translateZ(80px);
+    font-family: monospace;
+    font-size: 30px;
+    padding: 10px 10px 10px 27px;
+    color: $black;
+    position: relative;
+    .title {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+  }
+}
