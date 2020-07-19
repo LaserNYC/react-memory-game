@@ -2,4 +2,4 @@
 
 Simple memory game using React, with state managed using Mobx.
 
-https://lasernyc.github.io/react-memory-game/
+https://davelaser2.github.io/react-memory-game/
